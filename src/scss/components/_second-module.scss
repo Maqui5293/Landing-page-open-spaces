@@ -1,0 +1,32 @@
+@use '../core/variables' as vars;
+
+.second-module-container {
+    background-color: vars.$background-light;
+    padding: 2.5rem 0;
+    h2 {
+      text-align: center;
+      margin: 0 2.9rem 3.1rem;
+    }
+  }
+  
+  .second-article-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding: 0 6.4rem;
+    gap: 4.1rem;
+  
+    .feature {
+      display: grid;
+      justify-items: center;
+      text-align: center;
+  
+      img {
+        width: 5.6rem;
+        height: auto;
+      }
+      h3 {
+        margin: 3.3rem 0 1.25rem;
+      }
+    }
+  }

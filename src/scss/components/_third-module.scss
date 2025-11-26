@@ -1,0 +1,16 @@
+@use "../core/variables" as vars;
+
+.third-module-container {
+  background-color: vars.$accent-color;
+  text-align: center;
+  padding: 3.75rem 0;
+
+  a {
+    display: inline-block;
+    margin-top: 2.5rem;
+    color: vars.$text-on-dark;
+  }
+  .third-module-heading, .p-small {
+    color: vars.$text-on-dark;
+  }
+}

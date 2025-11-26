@@ -1,0 +1,46 @@
+@use '../core/variables' as vars;
+
+footer {
+    padding: 3.75rem 0;
+    background-color: vars.$primary-color;
+    position: relative;
+    a {
+      text-decoration: none;
+      font-size: 0.875rem;
+    }
+    ul {
+      list-style: none;
+    }
+  }
+  .footer-container {
+    background-color: vars.$primary-color;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2.5rem;
+  
+    a,
+    h3 {
+      color: vars.$footer-text-color;
+    }
+  }
+  
+  .contacto-main-container {
+    .contacto {
+      a {
+        display: block;
+      }
+    }
+  
+    .social-links {
+      display: inline-block;
+      margin-top: 1.56rem;
+    }
+  }
+  
+  .scroll-up {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+  }

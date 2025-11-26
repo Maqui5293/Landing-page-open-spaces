@@ -1,0 +1,21 @@
+@use '../core/variables' as vars;
+
+.fourth-module-container {
+    text-align: center;
+    background-color: vars.$background-light;
+  
+    .text-content {
+      padding: 5.4rem 1.6rem;
+  
+      .primary-btn {
+        display: inline-block;
+        margin-top: 2.06rem;
+      }
+    }
+  
+    .image-content .fourth-image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }

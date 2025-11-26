@@ -7,8 +7,7 @@ La página está construida con HTML y SCSS modular, priorizando la escalabilida
 🌍 Demo en producción
 
 Puedes ver la versión publicada aquí:
-👉 (añade tu enlace de GitHub Pages cuando esté listo)
-
+👉 https://maqui5293.github.io/Landing-page-open-spaces/
 ⚙️ Tecnologías utilizadas
 
 HTML5 — Maquetación y estructura del contenido.
